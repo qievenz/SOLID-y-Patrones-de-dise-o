@@ -6,10 +6,10 @@ namespace _07.Patron.Creacional.Factory
     {
         static void Main(string[] args)
         {
-            // EjemploFactoryMethodConceptual();
-            // EjemploFactoryMethodUser();
-            // EjemploFactoryMethodPizzeria();
-            // EjemploFactoryAbstractPizzeria();
+            EjemploFactoryMethodConceptual();
+            EjemploFactoryMethodUser();
+            EjemploFactoryMethodPizzeria();
+            EjemploFactoryAbstractPizzeria();
 
             SolucionEjercicio();
         }
