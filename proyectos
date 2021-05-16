@@ -1,0 +1,57 @@
+dotnet new sln
+dotnet new console -o 01.SOLID.SingleResponsability
+dotnet new console -o 02.SOLID.OpenClosed
+dotnet new console -o 03.SOLID.LiskovSubstitution
+dotnet new console -o 04.SOLID.InterfaceSegregation
+dotnet new console -o 05.SOLID.DependencyInversion
+dotnet new console -o 06.Patron.Creacional.Builder
+dotnet new console -o 07.Patron.Creacional.Factory
+dotnet new console -o 08.Patron.Creacional.Prototype
+dotnet new console -o 09.Patron.Creacional.Singleton
+dotnet new console -o 10.Patron.Estructural.Adapter
+dotnet new console -o 11.Patron.Estructural.Bridge
+dotnet new console -o 12.Patron.Estructural.Composite
+dotnet new console -o 13.Patron.Estructural.Decorator
+dotnet new console -o 14.Patron.Estructural.Facade
+dotnet new console -o 15.Patron.Estructural.FlyWeight
+dotnet new console -o 16.Patron.Estructural.Proxy
+dotnet new console -o 17.Patron.Comportamiento.Chain
+dotnet new console -o 18.Patron.Comportamiento.Command
+dotnet new console -o 19.Patron.Comportamiento.Interpreter
+dotnet new console -o 20.Patron.Comportamiento.Iterator
+dotnet new console -o 21.Patron.Comportamiento.Memento
+dotnet new console -o 22.Patron.Comportamiento.Mediator
+dotnet new console -o 23.Patron.Comportamiento.NullObject
+dotnet new console -o 24.Patron.Comportamiento.Observer
+dotnet new console -o 25.Patron.Comportamiento.State
+dotnet new console -o 26.Patron.Comportamiento.Strategy
+dotnet new console -o 27.Patron.Comportamiento.Template
+dotnet new console -o 28.Patron.Comportamiento.Visitor
+dotnet sln add 01.SOLID.SingleResponsability/01.SOLID.SingleResponsability.csproj
+dotnet sln add 02.SOLID.OpenClosed/02.SOLID.OpenClosed.csproj
+dotnet sln add 03.SOLID.LiskovSubstitution/03.SOLID.LiskovSubstitution.csproj
+dotnet sln add 04.SOLID.InterfaceSegregation/04.SOLID.InterfaceSegregation.csproj
+dotnet sln add 05.SOLID.DependencyInversion/05.SOLID.DependencyInversion.csproj
+dotnet sln add 06.Patron.Creacional.Builder/06.Patron.Creacional.Builder.csproj
+dotnet sln add 07.Patron.Creacional.Factory/07.Patron.Creacional.Factory.csproj
+dotnet sln add 08.Patron.Creacional.Prototype/08.Patron.Creacional.Prototype.csproj
+dotnet sln add 09.Patron.Creacional.Singleton/09.Patron.Creacional.Singleton.csproj
+dotnet sln add 10.Patron.Estructural.Adapter/10.Patron.Estructural.Adapter.csproj
+dotnet sln add 11.Patron.Estructural.Bridge/11.Patron.Estructural.Bridge.csproj
+dotnet sln add 12.Patron.Estructural.Composite/12.Patron.Estructural.Composite.csproj
+dotnet sln add 13.Patron.Estructural.Decorator/13.Patron.Estructural.Decorator.csproj
+dotnet sln add 14.Patron.Estructural.Facade/14.Patron.Estructural.Facade.csproj
+dotnet sln add 15.Patron.Estructural.FlyWeight/15.Patron.Estructural.FlyWeight.csproj
+dotnet sln add 16.Patron.Estructural.Proxy/16.Patron.Estructural.Proxy.csproj
+dotnet sln add 17.Patron.Comportamiento.Chain/17.Patron.Comportamiento.Chain.csproj
+dotnet sln add 18.Patron.Comportamiento.Command/18.Patron.Comportamiento.Command.csproj
+dotnet sln add 19.Patron.Comportamiento.Interpreter/19.Patron.Comportamiento.Interpreter.csproj
+dotnet sln add 20.Patron.Comportamiento.Iterator/20.Patron.Comportamiento.Iterator.csproj
+dotnet sln add 21.Patron.Comportamiento.Memento/21.Patron.Comportamiento.Memento.csproj
+dotnet sln add 22.Patron.Comportamiento.Mediator/22.Patron.Comportamiento.Mediator.csproj
+dotnet sln add 23.Patron.Comportamiento.NullObject/23.Patron.Comportamiento.NullObject.csproj
+dotnet sln add 24.Patron.Comportamiento.Observer/24.Patron.Comportamiento.Observer.csproj
+dotnet sln add 25.Patron.Comportamiento.State/25.Patron.Comportamiento.State.csproj
+dotnet sln add 26.Patron.Comportamiento.Strategy/26.Patron.Comportamiento.Strategy.csproj
+dotnet sln add 27.Patron.Comportamiento.Template/27.Patron.Comportamiento.Template.csproj
+dotnet sln add 28.Patron.Comportamiento.Visitor/28.Patron.Comportamiento.Visitor.csproj
