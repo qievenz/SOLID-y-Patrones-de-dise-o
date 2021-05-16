@@ -6,10 +6,9 @@ namespace _03.SOLID.LiskovSubstitution
     {
         static void Main(string[] args)
         {
-            Animal animal = new Animal();
-            animal.noise = "AWW";
+            var animal = new Dog();
             animal.MakeNoise();
-            animal.Fly();
+            //animal.Fly();
             Console.ReadLine();
 
         }

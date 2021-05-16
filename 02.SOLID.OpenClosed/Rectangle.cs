@@ -1,4 +1,4 @@
-namespace Client
+namespace _02.SOLID.OpenClosed
 {
   public class Rectangle : IShape
   {

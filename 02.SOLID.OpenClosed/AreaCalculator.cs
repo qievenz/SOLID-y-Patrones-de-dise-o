@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Client
+namespace _02.SOLID.OpenClosed
 {
   public class AreaCalculator
   {

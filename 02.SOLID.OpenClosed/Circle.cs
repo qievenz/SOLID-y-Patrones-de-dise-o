@@ -1,6 +1,6 @@
 using System;
 
-namespace Client
+namespace _02.SOLID.OpenClosed
 {
   public class Circle : IShape
   {

@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LSPLibrary
+namespace _03.SOLID.LiskovSubstitution
 {
-    class Dog : Animal
+    public class Dog : IAnimal
     {
-        public override void Fly()
+        public void MakeNoise()
         {
-            throw new NotImplementedException("No puedo volar");
+            Console.WriteLine("wow wow");
+            
         }
     }
 }
