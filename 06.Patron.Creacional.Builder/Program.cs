@@ -6,7 +6,12 @@ namespace _06.Patron.Creacional.Builder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var sandwich = new SandwichAssembly(new CheeseBurger());
+            sandwich.Assemble();
+
+            var a = sandwich.GetSandwich;
+            Console.WriteLine(a);
+                
         }
     }
 }
