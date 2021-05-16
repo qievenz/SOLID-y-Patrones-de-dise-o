@@ -6,7 +6,18 @@ namespace _08.Patron.Creacional.Prototype
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            EjemploConceptual();
+            EjemploDeepCopy();
+        }
+
+        private static void EjemploDeepCopy()
+        {
+            new DeepCopy.Client().Main();
+        }
+
+        private static void EjemploConceptual()
+        {
+            new Concepto.Client().Main();
         }
     }
 }
