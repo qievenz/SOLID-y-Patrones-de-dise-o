@@ -15,6 +15,12 @@ namespace _06.Patron.Creacional.Builder
             var sandwichFluent = new FluentBuilder.SandwichBuilder()
                 .WithCheeseChedar()
                 .WithMayoMustard();
+
+            var autoEjercicio = Ejercicio.CarBuilder
+                .CreateNew()
+                .AddName("Ford")
+                .AddModel("Focus")
+                .Build();
         }
     }
 }
