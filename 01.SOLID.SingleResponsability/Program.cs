@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 
 namespace _01.SOLID.SingleResponsability
 {
@@ -12,7 +15,7 @@ namespace _01.SOLID.SingleResponsability
 
             Console.WriteLine(report.ToString());
 
-            report.SaveToFile(@"Reports", "WorkReport.txt");
+            FileSaver.SaveToFile(@"Reports", "WorkReport.txt", report);
         }
     }
 
@@ -35,7 +38,8 @@ namespace _01.SOLID.SingleResponsability
         public void AddEntry(CourseReportEntry entry) => _entries.Add(entry);
 
         public void RemoveEntryAt(int index) => _entries.RemoveAt(index);
-
+        
+        //Este es el que esta de mas
         public void SaveToFile(string directoryPath, string fileName)
         {
             if (!Directory.Exists(directoryPath))
@@ -51,14 +55,14 @@ namespace _01.SOLID.SingleResponsability
 
     public static class FileSaver
     {
-        public static void SaveToFile(string directoryPath, string fileName)
+        public static void SaveToFile(string directoryPath, string fileName, object o)
         {
             if (!Directory.Exists(directoryPath))
             {
                 Directory.CreateDirectory(directoryPath);
             }
 
-            File.WriteAllText(Path.Combine(directoryPath, fileName), ToString());
+            File.WriteAllText(Path.Combine(directoryPath, fileName), o.ToString());
         }
     }
 }
