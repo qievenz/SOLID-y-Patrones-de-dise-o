@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _06.Patron.Creacional.Builder
+namespace _06.Patron.Creacional.Builder.Builder
 {
     public class SandwichAssembly
     {
