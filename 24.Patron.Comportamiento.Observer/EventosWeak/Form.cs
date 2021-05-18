@@ -6,9 +6,9 @@ namespace _24.Patron.Comportamiento.Observer.EventosWeak
     {
         public Form(Button button)
         {
-            //button.Clicked += ButtonOnClicked;
-            System.Windows.WeakEventManager<Button, EventArgs>
-                .AddHandler(button, "Clicked", ButtonOnClicked);
+            button.Clicked += ButtonOnClicked;
+            // System.Windows.WeakEventManager<Button, EventArgs>
+            //     .AddHandler(button, "Clicked", ButtonOnClicked);
         }
 
         private void ButtonOnClicked(object sender, EventArgs e)

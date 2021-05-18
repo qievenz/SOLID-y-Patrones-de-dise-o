@@ -15,6 +15,16 @@ namespace _24.Patron.Comportamiento.Observer
             EjemploEventos();
 
             EjemploEventosMemoryLeak();
+            
+            EjemploEventosDisposable();
+        }
+
+        private static void EjemploEventosDisposable()
+        {
+            var recruiter = new Recruiter();
+            var listener = new Listener(recruiter);
+
+            listener.StartListener();
         }
 
         private static void EjemploEventosMemoryLeak()

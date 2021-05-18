@@ -8,7 +8,7 @@ namespace _24.Patron.Comportamiento.Observer.Eventos
         public void LastInterview(string name)
         {
             //InterviewUpdate?.Invoke(this, EventArgs.Empty);
-            var args  = new InterviewUpdateEventArgs{Name = name};
+            var args  = new InterviewUpdateEventArgs(name);
             InterviewUpdate?.Invoke(this, args);
         }
     }
