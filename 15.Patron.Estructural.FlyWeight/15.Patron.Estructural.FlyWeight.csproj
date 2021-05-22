@@ -6,4 +6,8 @@
     <RootNamespace>_15.Patron.Estructural.FlyWeight</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
 </Project>
