@@ -1,4 +1,5 @@
 ﻿using System;
+using static _19.Patron.Comportamiento.Interpreter.Ejemplo.NumericExpression;
 
 namespace _19.Patron.Comportamiento.Interpreter
 {
@@ -6,7 +7,10 @@ namespace _19.Patron.Comportamiento.Interpreter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var input = "2 1 5 + *";
+            var parser = new ExpressionParser();
+            int result = parser.Parse(input);
+            Console.WriteLine($"resultado: {result}");
         }
     }
 }
