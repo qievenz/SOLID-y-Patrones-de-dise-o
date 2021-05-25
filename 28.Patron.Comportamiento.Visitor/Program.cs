@@ -1,4 +1,8 @@
-﻿using System;
+﻿
+using _28.Patron.Comportamiento.Visitor.EjemploClaseExterna;
+using _28.Patron.Comportamiento.Visitor.EjemploConVisitor;
+using _28.Patron.Comportamiento.Visitor.EjemploSinVisitor;
+using Coding.Exercise;
 
 namespace _28.Patron.Comportamiento.Visitor
 {
@@ -6,7 +10,10 @@ namespace _28.Patron.Comportamiento.Visitor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            EjemploSinVisitorCliente.Ejecutar();
+            EjemploClaseExternaCliente.Ejecutar();
+            EjemploConVisitorCliente.Ejecutar();
+            EjercicioCliente.Ejecutar();
         }
     }
 }
