@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _27.Patron.Comportamiento.Template.Ejemplo;
+using RefactoringGuru.DesignPatterns.TemplateMethod.Conceptual;
 
 namespace _27.Patron.Comportamiento.Template
 {
@@ -6,7 +7,8 @@ namespace _27.Patron.Comportamiento.Template
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ConceptoCliente.Ejecutar();
+            EjemploCliente.Ejecutar();
         }
     }
 }
