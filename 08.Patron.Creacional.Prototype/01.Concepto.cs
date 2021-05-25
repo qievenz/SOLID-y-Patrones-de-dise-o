@@ -18,7 +18,7 @@ namespace _08.Patron.Creacional.Prototype.Concepto
         {
             Person clone = (Person) this.MemberwiseClone();
             clone.IdInfo = new IdInfo(IdInfo.IdNumber);
-            clone.Name = String.Copy(Name);
+            clone.Name = Name;
             return clone;
         }
     }
