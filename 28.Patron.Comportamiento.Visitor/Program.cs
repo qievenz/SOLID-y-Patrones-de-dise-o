@@ -1,4 +1,5 @@
 ﻿
+using _28.Patron.Comportamiento.Visitor.Concepto;
 using _28.Patron.Comportamiento.Visitor.EjemploClaseExterna;
 using _28.Patron.Comportamiento.Visitor.EjemploConVisitor;
 using _28.Patron.Comportamiento.Visitor.EjemploSinVisitor;
@@ -14,6 +15,7 @@ namespace _28.Patron.Comportamiento.Visitor
             EjemploClaseExternaCliente.Ejecutar();
             EjemploConVisitorCliente.Ejecutar();
             EjercicioCliente.Ejecutar();
+            ConceptoCliente.Ejecutar();
         }
     }
 }
