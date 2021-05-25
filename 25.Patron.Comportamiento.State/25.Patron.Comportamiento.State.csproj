@@ -6,4 +6,8 @@
     <RootNamespace>_25.Patron.Comportamiento.State</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="stateless" Version="5.11.0" />
+  </ItemGroup>
+
 </Project>
