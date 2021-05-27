@@ -1,6 +1,6 @@
 using System;
 
-namespace RefactoringGuru.DesignPatterns.TemplateMethod.Conceptual
+namespace _27.Patron.Comportamiento.Template.Concepto
 {
     // The Abstract Class defines a template method that contains a skeleton of
     // some algorithm, composed of calls to (usually) abstract primitive

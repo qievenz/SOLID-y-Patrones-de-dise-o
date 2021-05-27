@@ -1,5 +1,5 @@
-﻿using _27.Patron.Comportamiento.Template.Ejemplo;
-using RefactoringGuru.DesignPatterns.TemplateMethod.Conceptual;
+﻿using _27.Patron.Comportamiento.Template.Concepto;
+using _27.Patron.Comportamiento.Template.Ejemplo;
 
 namespace _27.Patron.Comportamiento.Template
 {
